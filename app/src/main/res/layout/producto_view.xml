@@ -8,6 +8,9 @@
         android:id="@+id/producto_img"
         android:layout_width="72dp"
         android:layout_height="72dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:src="@drawable/caramelfrap"
         />
     
@@ -15,12 +18,18 @@
         android:layout_width="0dp"
         android:layout_weight="3"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/producto_nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:textColor="@color/name_product"
             android:text="Caramel Frap"
             />
 
@@ -28,7 +37,12 @@
             android:id="@+id/producto_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:text="Descripción del producto"
+            android:fontFamily="sans-serif-light"
+            android:textSize="8sp"
+            android:textColor="@color/desc_product"
             />
 
     </LinearLayout>
@@ -38,7 +52,12 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:gravity="center"
+        android:textSize="19dp"
+        android:textColor="@color/price_product"
+        android:textStyle="bold"
         android:text="$5.00"
         />
     

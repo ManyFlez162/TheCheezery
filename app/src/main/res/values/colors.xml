@@ -9,4 +9,7 @@
     <color name="pinky">#c50390</color>
     <color name="last_pink">#ef029d</color>
     <color name="accent_pink">#fe2bd0</color>
+    <color name="name_product">#B60089</color>
+    <color name="desc_product">#262525</color>
+    <color name="price_product">#9E2E81</color>
 </resources>
